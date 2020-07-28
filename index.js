@@ -5,7 +5,7 @@ const console = new c.Console({
   stdout: process.stdout,
   stderr: process.stderr,
   groupIndentation: 4
-});
+})
 
 const { Temporal } = pkg
 
