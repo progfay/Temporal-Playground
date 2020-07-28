@@ -1,11 +1,12 @@
 import c from 'console'
+import pkg from 'proposal-temporal'
+
 const console = new c.Console({
   stdout: process.stdout,
   stderr: process.stderr,
   groupIndentation: 4
 });
 
-import pkg from 'proposal-temporal'
 const { Temporal } = pkg
 
 console.group('Temporal.Date.from')
