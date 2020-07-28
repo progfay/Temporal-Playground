@@ -17,7 +17,7 @@ for (const [year, month, day] of [[2000, 13, 32], [20000, 100, 100]]) {
     const date = Temporal.Date.from(`${year}-${month}-${day}`)
     console.log(date)
   } catch (e) {
-    console.error(e)
+    console.error(e.message)
   }
   console.groupEnd(`Temporal.Date.from('${year}-${month}-${day}')`)
 
